@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "ssh://git@codeberg.org/harrypujols/super-defaul-boilerplate.git"
+    "url": "https://github.com/harrypujols/super-default-boilerplate.git"
   },
   "license": "ISC",
   "author": "Harry Pujols",

@@ -5,7 +5,7 @@
 1. Clone the repository:
 
    ```sh
-   git clone ssh://git@codeberg.org/harrypujols/super-default-boilerplate.git
+   git clone https://github.com/harrypujols/super-default-boilerplate.git
    cd super-default-boilerplate
    ```
 
