@@ -2,19 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>{{ global.title }}</title>
+    <title>{{ title | default: global.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% if description %}
       <meta name="description" content="{{ global.description }}">
     {% endif %}
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="/assets/img/favicon.ico">
     <link rel="stylesheet" href="/css/styles.css">
     <script type="module" src="/js/scripts.js" defer></script>
   </head>
-  <body data-js="test">
-    <header>
-      <h1>{{ global.title  }}</h1>
-    </header>
-    <main>
+  <body class="body {{ class | default: 'page' }}" data-js="test">
+    <main class="main {{ grid }}">
       {{ content }}
     </main>
-    </body>
+  </body>
