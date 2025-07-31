@@ -1,37 +1,37 @@
 :root {
   --font-family-base: sans-serif;
 
-  @media (min-width: 20rem) {
+  @media (width >= 20rem) {
     & {
       --breakpoint: "phone-portrait";
     }
   }
 
-  @media (min-width: 35.5rem) {
+  @media (width >= 35.5rem) {
     & {
       --breakpoint: "phone-landscape";
     }
   }
 
-  @media (min-width: 48rem) {
+  @media (width >= 48rem) {
     & {
       --breakpoint: "tablet-portrait";
     }
   }
 
-  @media (min-width: 64rem) {
+  @media (width >= 64rem) {
     & {
       --breakpoint: "tablet-landscape";
     }
   }
 
-  @media (min-width: 80rem) {
+  @media (width >= 80rem) {
     & {
       --breakpoint: "desktop";
     }
   }
 
-  @media (min-width: 105rem) {
+  @media (width >= 105rem) {
     & {
       --breakpoint: "desktop-large";
     }
