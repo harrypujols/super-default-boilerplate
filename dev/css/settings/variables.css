@@ -1,6 +1,8 @@
 :root {
   --font-family-base: sans-serif;
 
+  /* to be used for variable media queries, example
+  @container style(--breakpoint: "phone-portrait") {...} */
   @media (width >= 20rem) {
     & {
       --breakpoint: "phone-portrait";
