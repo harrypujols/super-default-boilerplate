@@ -3,35 +3,6 @@ body {
 
   &:before {
     display: none;
-  }
-
-  @media (min-width: 20rem) {
-    &:before {
-      content: "phone-portrait";
-    }
-  }
-
-  @media (min-width: 35.5rem) {
-    &:before {
-      content: "phone-landscape";
-    }
-  }
-
-  @media (min-width: 64rem) {
-    &:before {
-      content: "tablet-landscape";
-    }
-  }
-
-  @media (min-width: 80rem) {
-    &:before {
-      content: "desktop";
-    }
-  }
-
-  @media (min-width: 105rem) {
-    &:before {
-      content: "desktop-large";
-    }
+    content: var(--breakpoint);
   }
 }
