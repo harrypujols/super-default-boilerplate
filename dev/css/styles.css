@@ -1,3 +1,4 @@
 @import url("./settings/variables.css");
+@import url("./settings/breakpoints.css");
 @import url("./global/base.css");
 @import url("./settings/print.css");
