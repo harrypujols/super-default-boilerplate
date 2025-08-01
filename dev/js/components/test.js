@@ -2,6 +2,7 @@ export default class {
   constructor(element, APP) {
     this.element = element;
     this.APP = APP;
+    this.data = APP.data;
   }
 
   init() {
