@@ -1,6 +1,6 @@
-@layer settings, global, print;
+@layer settings, theme, print;
 
 @import url("./settings/variables.css") layer(settings);
 @import url("./settings/breakpoints.css") layer(settings);
-@import url("./global/base.css") layer(global);
+@import url("./global/base.css") layer(theme);
 @import url("./settings/print.css") layer(print);
