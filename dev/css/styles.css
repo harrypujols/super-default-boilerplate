@@ -1,4 +1,6 @@
-@import url("./settings/variables.css");
-@import url("./settings/breakpoints.css");
-@import url("./global/base.css");
-@import url("./settings/print.css");
+@layer settings, global, print;
+
+@import url("./settings/variables.css") layer(settings);
+@import url("./settings/breakpoints.css") layer(settings);
+@import url("./global/base.css") layer(global);
+@import url("./settings/print.css") layer(print);
